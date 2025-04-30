@@ -1,0 +1,118 @@
+{
+  "players": [
+    {
+      "id": 0,
+      "name": "Lionel Messi",
+      "age": 39,
+      "height": 1.75,
+      "price": 500000000,
+      "img": "https://media.gettyimages.com/id/1475698105/es/foto/buenos-aires-argentina-lionel-messi-of-argentina-celebrates-with-the-fifa-world-cup-trophy.jpg?s=612x612&w=gi&k=20&c=vx8hLHkOlHkDqnFKGYABZzK20NyenpKpzj1FjMZ6Po0="
+    },
+    {
+      "id": 1,
+      "name": "Cristiano Ronaldo",
+      "age": 38,
+      "height": 1.87,
+      "price": 450000000,
+      "img": "players_imgs/cr7.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kylian Mbappé",
+      "age": 25,
+      "height": 1.78,
+      "price": 350000000,
+      "img": "https://fifpro.org/media/cvglel2t/imago1020346080.jpg?rxy=0.47221054333764556,0.1990534726514335&width=1600&height=1024&rnd=133226681627000000"
+    },
+    {
+      "id": 3,
+      "name": "Erling Haaland",
+      "age": 24,
+      "height": 1.94,
+      "price": 400000000,
+      "img": "https://fifpro.org/media/1i0cxvm4/haaland_ucl.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Neymar Jr.",
+      "age": 31,
+      "height": 1.75,
+      "price": 300000000,
+      "img": "https://media.gettyimages.com/id/1466409940/es/foto/paris-france-neymar-of-paris-saint-germain-looks-on-during-the-uefa-champions-league-round-of.jpg?s=612x612&w=gi&k=20&c=3YWfIqtNQDokiZAE2CpvgqpN5mt7--z9-TAdNb0D8c4="
+    },
+    {
+      "id": 5,
+      "name": "Kevin De Bruyne",
+      "age": 32,
+      "height": 1.81,
+      "price": 250000000,
+      "img": "https://media.gettyimages.com/id/1485512338/es/foto/manchester-england-kevin-de-bruyne-of-manchester-city-celebrates-after-scoring-the-teams-third.jpg?s=612x612&w=gi&k=20&c=JPNpf8lCMiI9dR6H58DEKRwPzBvPKcqFejHqkhCsVkg="
+    },
+    {
+      "id": 6,
+      "name": "Robert Lewandowski",
+      "age": 35,
+      "height": 1.85,
+      "price": 280000000,
+      "img": "https://media.gettyimages.com/id/1691867612/es/foto/barcelona-spain-robert-lewandowski-of-fc-barcelona-celebrates-after-scoring-their-teams-second.jpg?s=612x612&w=gi&k=20&c=mld0aqLQzuwIyE2hlcFh1NxhZLu7J_1QZQ5R8ryy8EE="
+    },
+    {
+      "id": 7,
+      "name": "Mohamed Salah",
+      "age": 31,
+      "height": 1.75,
+      "price": 220000000,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ah8K24Ut39NPateObyY2ipq6cRijhY8LDA&s"
+    }
+  ],
+  "managers": [
+    {
+      "name": "Pep Guardiola",
+      "age": 52,
+      "nationality": "Spanish",
+      "team": "Manchester City"
+    },
+    {
+      "name": "Jürgen Klopp",
+      "age": 56,
+      "nationality": "German",
+      "team": "Liverpool"
+    },
+    {
+      "name": "Carlo Ancelotti",
+      "age": 63,
+      "nationality": "Italian",
+      "team": "Real Madrid"
+    },
+    {
+      "name": "Xavi Hernández",
+      "age": 43,
+      "nationality": "Spanish",
+      "team": "FC Barcelona"
+    },
+    {
+      "name": "José Mourinho",
+      "age": 60,
+      "nationality": "Portuguese",
+      "team": "AS Roma"
+    },
+    {
+      "name": "Diego Simeone",
+      "age": 52,
+      "nationality": "Argentine",
+      "team": "Atlético de Madrid"
+    },
+    {
+      "name": "Thomas Tuchel",
+      "age": 49,
+      "nationality": "German",
+      "team": "Bayern Munich"
+    },
+    {
+      "name": "Mikel Arteta",
+      "age": 40,
+      "nationality": "Spanish",
+      "team": "Arsenal"
+    }
+  ]
+}
