@@ -13,15 +13,19 @@ app.use(express.json());
 // CREAR APIs
 
 //PLAYERS
-app.get("/players", (req, res) => {
-  const players = getAllPlayers();
-  if (players.length === 0) {
-    res.status(404).json({ message: "No hay jugadores", error: true });
-  } else {
-    res.status(200).json({
-      message: "listado de jugadores",
-      players: players,
-    });
+app.get("/players", async (req, res) => {
+  try {
+    const players = await getAllPlayers();
+    if (players.length === 0) {
+      res.status(404).json({ message: "No hay jugadores", error: true });
+    } else {
+      res.status(200).json({
+        message: "listado de jugadores",
+        players: players,
+      });
+    }
+  } catch (e) {
+    res.status(500).json({ message: "Algo salió mal", error: true });
   }
 });
 

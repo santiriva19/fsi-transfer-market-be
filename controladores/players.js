@@ -1,8 +1,17 @@
 const data = require("../data-dummy/data.json");
 
+const { rtdb } = require("../db/connection");
+
 // list of players
-const getAllPlayers = () => {
-  return data.players;
+const getAllPlayers = async () => {
+  try {
+    const snapshot = await rtdb.ref("players").once("value");
+    const data = snapshot.val() || {};
+    return data;
+  } catch (e) {
+    console.log(e);
+    throw new Error("Algo pasó");
+  }
 };
 
 // create new player
